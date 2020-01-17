@@ -31,6 +31,23 @@
   margin: 20px;
 }
 
+#questions {
+  background-image: linear-gradient(to right bottom, #cd2da3, #be52bd, #ac6cd1, #9b82de, #8d94e5, #71a6f0, #59b7f4, #4ec5f2, #41d8e7, #69e6d1, #a0f1b8, #daf7a6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  margin: 25px 200px;
+  padding: 25px;
+  font-family: monospace;
+  font-size: 14pt;
+
+}
+
+p {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
 #firstButton {
   margin: 40px;
   background-color: #5FFBF1;
@@ -39,6 +56,13 @@
 
 #secondButton {
   margin-top: 15px;
+}
+
+#thirdButton {
+  background-color: #CD2DA3;
+  font-size: 14pt;
+  color: white;
+  margin: 20px 26px;
 }
 
 h1 {
