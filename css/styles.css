@@ -65,6 +65,14 @@ p {
   margin: 20px 26px;
 }
 
+#suggestion {
+  font-size: 40pt;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  background-image: linear-gradient(to left top, #d07ddb, #c088e3, #af91e9, #a099eb, #93a0eb, #79aef3, #60baf5, #4ec5f2, #41d8e7, #69e6d1, #a0f1b8, #daf7a6);
+}
+
 h1 {
   font-size: 40pt;
 }
