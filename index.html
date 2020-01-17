@@ -21,10 +21,12 @@
           <p>What's your name?</p>
           <label for="name">Name:</label>
           <input type="text" id="name" class="form-control">
-          <button type="submit" class="btn btn-primary">Continue</button>
-        </div><!--form-group-->
+          <button type="submit" class="btn btn-primary" id="secondButton">Continue</button>
+        </div>
+      </form>
 
-        <div class="form-group" id="questions">
+      <form id="questions">
+        <div class="form-group">
           <div class="radio">
             <p>How many times a day do you brush your teeth?</p>
             <label>
@@ -127,6 +129,7 @@
           <button type="submit" class="btn btn-success">See the suggestion!</button>
         </div><!--form-group-->
       </form>
+
       <div id="suggestion">
         <p><span id="nameInput"></span>, you might like to learn <span id="languageSuggestion"></span>.</p>
       </div>

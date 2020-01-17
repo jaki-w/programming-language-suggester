@@ -12,5 +12,11 @@ $(document).ready(function() {
     $("#hello").show();
   });
 
+  $("#secondButton").click(function() {
+    event.preventDefault();
+    $("#hello").hide();
+    $("#questions").show();
+  });
+
 
 });
