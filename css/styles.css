@@ -1,11 +1,13 @@
 
 #hello {
+  background-image: linear-gradient(to right bottom, #3099c1, #3587c0, #4e73b8, #685da7, #7d438d, #7a4a99, #7651a4, #6f58b0, #0081d7, #00a4e3, #00c3d7, #19dcbc);
   padding: 25px;
   margin: 50px;
   font-family: monospace;
-  border: solid black;
+  border: solid black 2px;
   display: none;
   size: 25%;
+  color: white;
 }
 
 #hi {
@@ -56,13 +58,15 @@ p {
 
 #secondButton {
   margin-top: 15px;
+  background-color: #19DCBC;
+  color: black;
 }
 
 #thirdButton {
   background-color: #CD2DA3;
   font-size: 14pt;
   color: white;
-  margin: 20px 26px;
+  margin: 20px 190px;
 }
 
 #suggestion {
