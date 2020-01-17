@@ -82,7 +82,7 @@
           <div class="radio">
             <p>Choose a mythical creature:</p>
             <label>
-              <input type="text" name="centaur" value="1">Centaur
+              <input type="radio" name="centaur" value="1" checked>Centaur
             </label>
           </div>
           <div class="radio">
@@ -122,9 +122,12 @@
               <input type="radio" name="Slytherin" value="2">Slytherin
             </label>
           </div>
-
+          <button type="submit" class="btn btn-success">See the suggestion!</button>
         </div><!--form-group-->
       </form>
+      <div id="suggestion">
+        <p><span id="nameInput"></span>, you might like to learn <span id="languageSuggestion"></span>.</p>
+      </div>
 
     </div><!--container-->
   </body>
