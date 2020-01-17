@@ -1,7 +1,11 @@
 
 #hello {
+  padding: 25px;
+  margin: 50px;
   font-family: monospace;
+  border: solid black;
   display: none;
+  size: 25%;
 }
 
 #hi {
@@ -31,6 +35,10 @@
   margin: 40px;
   background-color: #5FFBF1;
   color: black;
+}
+
+#secondButton {
+  margin-top: 15px;
 }
 
 h1 {
