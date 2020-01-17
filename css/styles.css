@@ -1,5 +1,11 @@
+
 #hello {
+  font-family: monospace;
   display: none;
+}
+
+#hi {
+  font-size: 50pt;
 }
 
 #suggestion {
@@ -8,4 +14,25 @@
 
 #questions {
   display: none;
+}
+
+#intro {
+  font-family: monospace;
+  color: black;
+  text-align: center;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 50px;
+  margin: 20px;
+}
+
+#firstButton {
+  margin: 40px;
+  background-color: #5FFBF1;
+  color: black;
+}
+
+h1 {
+  font-size: 40pt;
 }
