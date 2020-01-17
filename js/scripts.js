@@ -8,7 +8,8 @@ var score = valOne+valTwo+valThree+valFour+valFive;
 
 $(document).ready(function() {
   $("#firstButton").click(function() {
-    $("#quiz").show();
+    $("#intro").hide();
+    $("#hello").show();
   });
 
 
