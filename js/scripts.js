@@ -13,6 +13,7 @@ $(document).ready(function() {
   $("#thirdButton").click(function() {
     event.preventDefault();
     var name = $("input#name").val();
+    $("#questions").slideUp();
     $("#suggestion").show();
     $("#nameInput").text(name);
 
