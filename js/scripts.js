@@ -34,5 +34,8 @@ $(document).ready(function() {
       $("#languageSuggestion").text("C#");
     }
 
+    setTimeout(function() {
+      window.location.reload(1);
+    }, 7000);
   });
 });
